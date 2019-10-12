@@ -15,3 +15,5 @@ services:
       - ./mysql-jdbc-input-plugin.conf:/usr/share/logstash/pipeline/logstash.conf
     ports:
       - 9600:9600
+      - 5044:5044
+
